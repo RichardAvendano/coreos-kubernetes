@@ -16,7 +16,7 @@ fi
 
 echo "Building kube-aws ${VERSION}..."
 rm -rf ./gopath
-link_path="${PWD}/gopath/src/github.com/coreos"
+link_path="${PWD}/gopath/src/github.com/RichardAvendano"
 mkdir -p $link_path
 ln -s ${PWD}/../../ "${link_path}/coreos-kubernetes"
 
