@@ -3,7 +3,7 @@ package cluster
 import (
 	"encoding/json"
 
-	"github.com/coreos/coreos-kubernetes/multi-node/aws/pkg/coreosutil"
+	"github.com/RichardAvendano/coreos-kubernetes/multi-node/aws/pkg/coreosutil"
 )
 
 const (
